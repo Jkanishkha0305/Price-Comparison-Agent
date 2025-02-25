@@ -44,8 +44,8 @@ if 'reports' not in st.session_state:
 # Sidebar for API Key Uploads, History, and Model Selection
 with st.sidebar:
     st.header("🔑 **API Keys**")
-    cerebras_api_key = st.text_input("🧠 Cerebras API Key")
-    serper_api_key = st.text_input("🔍 Serper API Key")
+    cerebras_api_key = st.text_input("🧠 Cerebras API Key", type="password")
+    serper_api_key = st.text_input("🔍 Serper API Key", type="password")
     
     # Model Selection
     # Sidebar Model Selection
@@ -116,10 +116,10 @@ if search_key in st.session_state.reports:
     st.markdown(st.session_state.reports[search_key])
 
     # **Download Button for the Report**
-    report_json = st.session_state.reports[search_key].encode('utf-8')
-    st.download_button(
-        label="📥 Download Report",
-        data=report_json,
-        file_name=f"{search_key}.json",
-        mime="application/json"
-    )
+    # report_json = st.session_state.reports[search_key].encode('utf-8')
+    # st.download_button(
+    #     label="📥 Download Report",
+    #     data=report_json,
+    #     file_name=f"{search_key}.json",
+    #     mime="application/json"
+    # )
