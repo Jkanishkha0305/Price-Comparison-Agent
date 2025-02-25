@@ -17,6 +17,7 @@ if not SERPER_API_KEY:
 cerebras_llm = LLM(
     model="cerebras/llama-3.3-70b",
     temperature=0.7,
+    max_tokens=18192,
     api_key=CEREBRAS_API_KEY,
     base_url="https://api.cerebras.ai/v1",
 )
