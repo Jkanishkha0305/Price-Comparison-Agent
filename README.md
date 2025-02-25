@@ -53,6 +53,7 @@ Here’s what makes the magic happen 🔮:
 
 ## 📂 Project Structure
 Here’s the folder breakdown 🗂️:  
+```bash
 Price-Comparison-Agent/  
 │   
 ├── src/  
@@ -66,6 +67,7 @@ Price-Comparison-Agent/
 ├── .env                   
 ├── requirements.txt       
 └── README.md              
+```
 
 ---
 
