@@ -46,6 +46,11 @@ Here’s what makes the magic happen 🔮:
 
 ---
 
+## Demo 
+
+![main](assets/crewcerebras1.png)
+![main](assets/crewcerebras2.png)
+
 ## 📂 Project Structure
 Here’s the folder breakdown 🗂️:  
 Price-Comparison-Agent/  
